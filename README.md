@@ -21,7 +21,16 @@ It covers creating custom properties, adding new contacts, and updating existing
    export HUBSPOT_API_KEY="your_api_key_here"
    ```
 
-## 2. Features
+## 2. Methods
    ```createCustomProperties() ```  Method to create each custom property.
    ```createContact() ``` Method to add a new contact with properties.
    ```updateContactProperties()``` Method to update an existing contact’s properties.
+
+## 3. Running the Code
+   Each action is defined as a separate method.
+   In main(), uncomment the desired action and run the file.
+   You can also run them together if needed.
+
+## 4. References
+[HubSpot API Docs](https://developers.hubspot.com/docs/reference/api/overview).
+[HubSpot Python SDK](https://github.com/HubSpot/hubspot-api-python).
