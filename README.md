@@ -17,7 +17,11 @@ It covers creating custom properties, adding new contacts, and updating existing
    pip install python-dotenv
    ```
 3. Set your HubSpot API key as an environment variable:
+   ```bash
+   export HUBSPOT_API_KEY="your_api_key_here"
+   ```
 
-  ```bash
-  export HUBSPOT_API_KEY="your_api_key_here"
-  ```
+## 2. Features
+   ```createCustomProperties() ```  Method to create each custom property.
+   ```createContact() ``` Method to add a new contact with properties.
+   ```updateContactProperties()``` Method to update an existing contact’s properties.
